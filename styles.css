@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input-group {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#city-name {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 16px;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px 8px 8px 8px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+}
+.weather-status {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 15px;
+}
+#image-icon {
+    max-width: 80px;
+    margin-bottom: 10px;
+}
+h1, h3 {
+    margin: 5px 0;
+}
+#city {
+    font-size: 24px;
+}
+#temp {
+    font-size: 36px;
+}
+#weather {
+    font-size: 18px;
+}
